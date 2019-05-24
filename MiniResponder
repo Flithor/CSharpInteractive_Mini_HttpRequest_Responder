@@ -12,7 +12,7 @@
 using System.Net;
 var l = new HttpListener();
 l.AuthenticationSchemes = AuthenticationSchemes.Anonymous;
-l.Prefixes.Add("http://localhost:8080/API/XXXX/");//ATTACTION: Uri should end with "\"
+l.Prefixes.Add("http://localhost:8080/API/XXXX/");//ATTACTION: Uri should end with "/"
 //more target url
 
 var t = Task.Run(() =>
