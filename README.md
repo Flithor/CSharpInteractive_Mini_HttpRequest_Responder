@@ -2,7 +2,7 @@
 
 A short C# script code can be used in C# Interactive(VS 2015+)
 
-Genterat a simple http responder for test your http request
+Generate a simple http responder for test your http request
 
 If you are using VS 2013-, you can also create a new project, and use HttpListener to built a simple tool.
 
